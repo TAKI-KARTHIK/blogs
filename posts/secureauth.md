@@ -1,3 +1,9 @@
+---
+title: "SecureAuth DashBoard"
+date: "2025-12-25"
+tags: ["#PasswordSecurity #Privacy #CyberSecurity #WebDevelopment #React #OpenSource"]
+---
+
 # Introducing SecureAuth: Your Privacy-First Password Security Toolkit
 
 *Published: December 25, 2024*
@@ -124,5 +130,3 @@ Your passwords are the keys to your digital life. Don't trust them to services t
 - [NIST Password Guidelines](https://pages.nist.gov/800-63-3/sp800-63b.html) — Industry standards
 
 ---
-
-*Tags: #PasswordSecurity #Privacy #CyberSecurity #WebDevelopment #React #OpenSource*
