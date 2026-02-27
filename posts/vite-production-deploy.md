@@ -23,7 +23,7 @@ Here’s what I used:
 
 - Vite + React
 - Cloudflare Pages
-- Custom domain (karthikr.dev)
+- Custom domain
 - Environment variables
 - GitHub for deployment
 
@@ -76,7 +76,7 @@ But the favicon showed up.
 
 What was happening?
 
-The issue was either an incorrect build output directory, or if your app uses React Router, a missing _redirects file. Without it, Cloudflare can't serve index.html for deep links and returns a 404 instead.
+The issue was either an incorrect build output directory, or if your app uses React Router, a missing `_redirects` file. Without it, Cloudflare can't serve `index.html` for deep links and returns a `404` instead.
 
 **Lesson:**  
 Always double-check your build output directory.
