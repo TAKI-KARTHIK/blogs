@@ -192,5 +192,4 @@ If you're building and deploying your own projects, you're already ahead.
 
 Keep shipping. Keep breaking. Keep learning.
 
-— Karthik  
-https://karthikr.dev
+— Karthik R
