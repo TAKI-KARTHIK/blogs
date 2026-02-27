@@ -76,9 +76,7 @@ But the favicon showed up.
 
 What was happening?
 
-The issue was incorrect routing or an incorrect build output directory.
-
-If the `dist` folder isn’t configured properly, Cloudflare might serve static assets but not your main `index.html` correctly.
+The issue was either an incorrect build output directory, or if your app uses React Router, a missing _redirects file. Without it, Cloudflare can't serve index.html for deep links and returns a 404 instead.
 
 **Lesson:**  
 Always double-check your build output directory.
@@ -133,9 +131,7 @@ Steps:
 2. Ensure DNS is correctly configured.
 3. Wait for SSL provisioning.
 
-A common mistake is forgetting to deploy before adding the domain.
-
-Cloudflare needs at least one successful deployment before connecting the domain properly.
+Make sure you have at least one successful deployment before expecting the domain to resolve correctly.
 
 **Lesson:**  
 Deploy first. Connect the domain second.
