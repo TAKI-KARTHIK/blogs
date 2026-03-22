@@ -1,9 +1,4 @@
----
-title: "Goodbye Windows, Hello Arch"
-date: "2026-03-22"
----
-
-# Why I Switched from Windows to Arch Linux as a Developer
+# I Installed Arch. No Regrets.
 
 *March 22, 2026*
 
